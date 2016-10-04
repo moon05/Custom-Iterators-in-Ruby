@@ -1,4 +1,4 @@
-require_relative '../amamun_tree/P2Tree.rb'
+require_relative './P2Tree.rb'
 
 def test_tree_create
 	tree = P2Tree.new(2)
