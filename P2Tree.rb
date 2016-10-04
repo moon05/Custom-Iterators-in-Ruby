@@ -1,4 +1,4 @@
-require_relative '../amamun_enum/P2Enumerable.rb'
+require_relative './P2Enumerable.rb'
 
 class P2Tree
 	include P2Enumerable
