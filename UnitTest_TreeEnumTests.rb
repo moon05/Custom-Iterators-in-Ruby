@@ -1,4 +1,4 @@
-load '../amamun_tree/P2Tree.rb'
+load './P2Tree.rb'
 def test_p2each
 	tree = P2Tree.new(6)
 	tree.add(1)
