@@ -1,4 +1,4 @@
-load '../amamun_enum/P2Enumerable.rb'
+load '.P2Enumerable.rb'
 
 def test_p2all
 	raise "#{__method__} error" unless ((%w[all cat bear]).p2all? { |word| word.length >= 3 })
